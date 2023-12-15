@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Kanit';
+}
+
+.row {
+    margin-top: 2rem;
+    margin-bottom:3rem;
+}
+
+#title {
+    background-color: darkseagreen;
+    position: relative;
+}
+
+#about {
+    margin-top: 5rem;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.page_title {
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.page_description {
+    font-size: 2.5rem;
+    font-family: 'Mukta', sans-serif;
+    color: #2f4f40;
+}
+
+
+h1 {
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-family: 'Kanit';
+    color: #2f4f40;
+}
+
+h3 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Mukta', sans-serif;
+    color: #2f4f40;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0.8 0;
+}
+.navbar-brand {
+    font-size: 1.3rem;
+    color: #2f4f40;
+}
+.ml-auto {
+    margin-left: auto!important;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 15px;
+    margin: 2%;
+}
+.btn-primary {
+    margin: 5% 5% 5% 0;
+}
+.btn-primary:hover {
+    background-color: #008000;
+    color: #ffffff;
+}
+
+/* Contact */
+.social-btn {
+    padding: 15px;
+    margin: 2%;
+}
+
+/* Footer */
+#footer {
+    padding: 1% 15%;
+    text-align: center;
+}
+
+/* Display darker color on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #064315;
+}
